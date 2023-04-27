@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>index</title>
+    </head>
+    <body>
+        <div class='menu'>
+        <div class='hm'>
+        <p id='home'>HOME</p>
+        <div class="homecontent">
+            <p>FEATURES</p>
+            <p>SERVICES</p>
+            <p>CONTACT</p>
+        </div>
+        </div>
+        <div class="lg">
+        <p id="log">LOGIN</p>
+        <div class="logincontent">
+            <p>EXISTING USER</p>
+            <p>NEW USER</p>
+            <p>ADMIN</p>
+        </div>
+        </div>
+        </div>
+        <style>
+            .menu{
+    width:12.5%;
+    background-color:grey;
+    box-shadow:3.5px 3.5px black;
+    padding-left:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+#log{
+    border:2px solid black;
+    width:90%;
+    text-align:center;
+    cursor:pointer;
+}
+#home{
+    border:2px solid black;
+    width:90%;
+    text-align:center;
+    cursor:pointer;
+}
+.homecontent{
+    border:1.5px solid white;
+    text-align:center;
+    width:75%;
+    font-size:12px;
+    margin-left:25px;
+    display:none;
+}
+.hm:hover .homecontent{
+    display:block;
+}
+.logincontent{
+    border:1.5px solid white;
+    text-align:center;
+    width:75%;
+    font-size:12px;
+    margin-left:25px;
+    display:none;
+}
+.lg:hover .logincontent{
+    display:block;
+}
+        </style> 
+    </body>
+</html>
